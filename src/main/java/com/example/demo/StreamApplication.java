@@ -13,7 +13,7 @@ import org.springframework.cloud.stream.messaging.Sink;
 @SpringBootApplication
 /**
  * Binds to rabbit @5672 and creates a queue named "input.streamHello".
- * Publish a message to the anonymous queue with a payload of:
+ * Publish a message to the queue with a payload of:
  *   {"name" : "codebeneath" }
  */
 public class StreamApplication {
